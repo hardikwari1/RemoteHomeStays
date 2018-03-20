@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+<servlet-name>first</servlet-name>
+<jsp-file>/validation.jsp</jsp-file>
+</servlet>
+ <servlet-mapping>
+<servlet-name>first</servlet-name>
+<url-pattern>/validate</url-pattern>
+</servlet-mapping>
+</web-app>
